@@ -40,6 +40,7 @@ namespace CAProject.Controllers
             {
                 double avgScore = Convert.ToDouble(reviews.Average(x => x.Rating));
                 ViewData["avgScore"] = avgScore;
+                
             } else
             {
                 ViewData["avgScore"] = (double)0;
